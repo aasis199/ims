@@ -1,0 +1,98 @@
+.data{
+    width: 25vw;
+    min-width:300px;
+    height: auto;
+    position:fixed;
+    background-color: #fff;
+    z-index: 122;
+    bottom: 0;
+    right: 13px;
+    z-index: 99999;
+    display: none;
+    transition: 0.4s;
+    opacity: 0.95;
+    box-shadow: 3px 5px 5px 3px #949292;
+} 
+.chat_message{
+    color: white;
+    top:0;
+    width: 100%;
+    background-image: linear-gradient(135deg, #5a94c7, #6f4f8d);
+    padding: 10px;
+}
+.chat_message h3{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.chat_message p{
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 200;
+}
+
+.open-button {
+    box-shadow: 2px 3px 3px #949292;
+    background-image: linear-gradient(135deg, #5a94c7, #6f4f8d);
+    color: white;
+    padding: 1rem ;
+    border: none;
+    width: 5rem;
+    height:5rem;
+    border-radius:50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    z-index: 999;
+    transition: 0.3s;
+  }
+
+  .open-button i{
+      font-size: 2rem;
+      color: white;
+  }
+
+  .open-button:hover{
+      opacity: 0.67;;
+  }
+
+  form{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+      padding:10px 0;
+  }
+
+#name, #phone, #email{
+    width: 80%;
+    height: 2rem;
+    margin: 0 12px;
+    padding: 10px;
+}
+
+textarea{
+    width:82%;
+    margin: 0 12px;
+    height:6rem;
+    padding:10px;
+    resize:none;
+    }
+
+.btn_primary{
+    position: absolute;
+    background-image: linear-gradient(135deg, #5a94c7, #6f4f8d);
+    border:none;
+    color: white;
+    transition: 0.2s;
+    bottom: 0;
+    padding: 10px 16px;
+    margin: 1.5rem 12px;
+  }
+
+  .btn_primary:hover{
+   opacity: 0.67;
+}
+
+@media only screen and (min-width: 992px){
+
+}
